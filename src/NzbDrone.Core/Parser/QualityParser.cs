@@ -549,7 +549,7 @@ namespace NzbDrone.Core.Parser
                 if (normalizedName.Contains("dvd"))
                 {
                     result.SourceDetectionSource = QualityDetectionSource.Name;
-                    result.Quality = Quality.DVD; // andy-reeves
+                    result.Quality = Quality.DVD;
                 }
                 else if (normalizedName.ContainsIgnoreCase("bluray"))
                 {
